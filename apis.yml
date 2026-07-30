@@ -1,8 +1,27 @@
 aid: kimono-labs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kimono-labs.png
 name: Kimono Labs
-description: 'Kimono Labs is a company surfaced as a portfolio company of cowboy-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: developer-tools. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Kimono Labs was a developer-tools startup that let users turn any website
+  into a structured API without writing code, using a visual point-and-click tool
+  to define data selectors that Kimono would crawl on a schedule and expose as JSON/CSV
+  endpoints and RSS feeds. Founded in 2014 by Pratap Ranade and Ryan Rowe and backed
+  by Cowboy Ventures, the company was acquired by Palantir Technologies in February
+  2016, after which the hosted cloud service at kimonolabs.com was shut down on 29
+  February 2016; a downloadable Kimono Desktop application was released as a farewell
+  so existing scrapers could continue running locally. The company is defunct and
+  operates no live API today; this profile is retained for historical and network
+  completeness.'
 url: https://raw.githubusercontent.com/api-evangelist/kimono-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +29,31 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: 'Hosted service shut down 2016-02-29 following acquisition by Palantir
+  Technologies; DNS for www/api/docs hosts no longer resolves.'
+x-acquired-by: palantir
+x-defunct-date: '2016-02-29'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Developer Tools
+- Web Scraping
+- Data Extraction
+- No-Code
+- Web APIs
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
