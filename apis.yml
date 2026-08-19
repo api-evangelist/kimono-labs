@@ -34,7 +34,7 @@ x-status-reason: 'Hosted service shut down 2016-02-29 following acquisition by P
   Technologies; DNS for www/api/docs hosts no longer resolves.'
 x-acquired-by: palantir
 x-defunct-date: '2016-02-29'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
